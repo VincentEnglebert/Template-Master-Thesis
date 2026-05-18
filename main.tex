@@ -75,6 +75,12 @@
 
 \setlength{\headheight}{13.59999pt}
 
+\newcommand{\pageblanche}{%
+  \clearpage
+  \thispagestyle{empty}
+  \null
+  \clearpage
+}
 
 \begin{document}
 
@@ -149,9 +155,7 @@
 \justifying % Texte justifié pour toutes les pages suivantes
 
 
-%% page blanche
-
-\clearpage\newpage\hbox{ }\clearpage\newpage
+\pageblanche
 
 \pagenumbering{roman}
 \fancyfoot[C]{\thepage}
@@ -166,9 +170,8 @@
   différentes personnes qui ont aidé à la réalisation du travail.
 \end{quote}
 
-%% page blanche
 
-\clearpage\newpage\hbox{ }\clearpage\newpage
+\pageblanche
 
 
 \noindent\textbf{\huge Résumé}
@@ -199,14 +202,13 @@
 \bigskip
 \noindent\textbf{Keywords} : one, two, ...
 
-%% page blanche
 
-\clearpage\newpage\hbox{ }\clearpage\newpage
+\pageblanche
 
 
 \tableofcontents
 
-\clearpage\newpage\hbox{ }\clearpage\newpage
+\pageblanche
 
 
 \section*{Acronymes}
@@ -223,7 +225,8 @@ entrées du glossaire.
  \end{description}
 
 
-\clearpage\newpage\hbox{ }\clearpage\newpage
+\pageblanche
+
 
 \renewcommand{\headrulewidth}{1pt} % Retrait header
 
