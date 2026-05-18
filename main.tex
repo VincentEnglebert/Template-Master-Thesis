@@ -65,7 +65,7 @@
 
 \newcommand{\promoteur}{Prof. Achille TALON}
 %% laisser vide si pas de co-promoteur
-\newcommand{\copromoteur}{} 
+\newcommand{\copromoteur}{Prof. Samson FO-PLI} 
 
 
 \input{configListing} %% configuration pour les listings
@@ -153,6 +153,9 @@
 
 \clearpage\newpage\hbox{ }\clearpage\newpage
 
+\pagenumbering{roman}
+\fancyfoot[C]{\thepage}
+
 
 \noindent\textbf{\huge Remerciements}
 
@@ -204,7 +207,6 @@
 \tableofcontents
 
 \clearpage\newpage\hbox{ }\clearpage\newpage
-\pagestyle{empty}
 
 
 \section*{Acronymes}
@@ -225,7 +227,10 @@ entrées du glossaire.
 
 \renewcommand{\headrulewidth}{1pt} % Retrait header
 
-\pagestyle{fancy}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\fancyfoot[C]{\thepage}
+
 
 \chapter{Introduction}
 
@@ -265,10 +270,12 @@ titre. Voir exemple suivant.
 
 \subsection{Télétransportation quantique sur IP}
 
-La télétransportation quantique sur le protocole IP permet de
-transférer instantanément un corps à distance par la conversion
-d'unités quantiques en trames IP. Le résultat s'avère cependant
-hasardeux lorsque des trames se perdent.
+La télétransportation quantique sur le protocole IP\footnote{Ce
+  protocole a été inventé par le Prof. Chacal au V\ieme siècle, lors de
+  l'invasion des Nuls par les Huns.} permet de transférer
+instantanément un corps à distance par la conversion d'unités
+quantiques en trames IP. Le résultat s'avère cependant hasardeux
+lorsque des trames se perdent.
 
 \subsection{Titre de subsection}
 
@@ -293,7 +300,9 @@ table des matières et les en-têtes de page.
 
 \chapter{Autres chapitres} 
 
-Après l'état de l'art, les parties varient en fonction de votre recherche. Vous devez adapter vos titres : Problématique, Développement, Méthodologie, Résultats\ldots
+Après l'état de l'art, les parties varient en fonction de votre
+recherche. Vous devez adapter vos titres : Problématique,
+Développement, Méthodologie, Résultats\ldots
 
 
 Ces parties vont servir à décrire précisément le développement de
