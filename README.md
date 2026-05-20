@@ -17,10 +17,14 @@ La police de caractères utilisée est la police Atkinson Hyperlegible (voir htt
 
 **Version** 1.1
 
-- polices harmonisées pour les \caption
-- bug copromoteur résolu
-- possibilité d'ajouter un deuxième co-promoteur : \cocopromoteur
+- polices harmonisées pour les \caption.
+- bug copromoteur résolu.
+- possibilité d'ajouter un deuxième co-promoteur : \cocopromoteur.
 
+**Version** 1.2
+
+- Le féminin des titres "(x-)promoteur" est désormais pris en compte (promotrice).
+- le cadre dans la table des matières est invisibilisé, les titres restent des liens actifs.
 
 
 
