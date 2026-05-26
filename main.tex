@@ -134,12 +134,12 @@
                 \begin{center}
                   \leftline{........................ (Signature pour approbation du dépôt - REE art. 40)}
                   \bigskip
-                    \ifx\promoteur\empty\else\leftline{Promoteur : \promoteur}\fi
-                    \ifx\promotrice\empty\else\leftline{Promotrice : \promotrice}\fi
-                    \ifx\copromoteur\empty\else\leftline{Co-promoteur : \copromoteur}\fi
-                    \ifx\copromotrice\empty\else\leftline{Co-promotrice : \copromotrice}\fi
-                    \ifx\cocopromoteur\empty\else\leftline{Co-promoteur : \cocopromoteur}\fi
-                    \ifx\cocopromotrice\empty\else\leftline{Co-promotrice : \cocopromotrice}\fi
+\ifdefempty{\promoteur}{}{\leftline{Promoteur : \promoteur}}
+\ifdefempty{\promotrice}{}{\leftline{Promotrice : \promotrice}}
+\ifdefempty{\copromoteur}{}{\leftline{Co-promoteur : \copromoteur}}
+\ifdefempty{\copromotrice}{}{\leftline{Co-promotrice : \copromotrice}}
+\ifdefempty{\cocopromoteur}{}{\leftline{Co-promoteur : \cocopromoteur}}
+\ifdefempty{\cocopromotrice}{}{\leftline{Co-promotrice : \cocopromotrice}}
                 \end{center}
             \end{spacing}
         \end{minipage}

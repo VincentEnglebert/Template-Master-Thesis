@@ -30,6 +30,9 @@ La police de caractères utilisée est la police Atkinson Hyperlegible (voir htt
 
 - Bug "promotrice" corrigé
 
+**Version** 1.4
+
+- Bug corrigé: \ifx était interprété différement entre MikTeX et Overleaf pour les promoteurs.
 
 
 
