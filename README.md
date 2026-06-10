@@ -7,11 +7,16 @@ Template Master Thesis Computer Science UNamur
 **Version** *1.1*
 
 
-Ce dépôt contient le modèle de fichier LaTeX à utiliser pour les mémoires de Master en Sciences Informatiques de l'Université de Namur.
+Ce dépôt contient le modèle de fichier LaTeX à utiliser pour les
+mémoires de Master en Sciences Informatiques de l'Université de Namur.
 
-Il vous suffit d'éditer le fichier `main.tex`afin de préciser les spécificités de votre mémoire (auteur, titre, année, etc).
+Il vous suffit d'éditer le fichier `main.tex`afin de préciser les
+spécificités de votre mémoire (auteur, titre, année, etc).
 
-La police de caractères utilisée est la police Atkinson Hyperlegible (voir https://www.brailleinstitute.org/freefont/) réputée pour améliorer la lisibilité des documents pour les personnes ayant un déficit visuel. 
+La police de caractères utilisée est la police Atkinson Hyperlegible
+(voir https://www.brailleinstitute.org/freefont/) réputée pour
+améliorer la lisibilité des documents pour les personnes ayant un
+déficit visuel.
 
 # Historique
 
@@ -33,6 +38,10 @@ La police de caractères utilisée est la police Atkinson Hyperlegible (voir htt
 **Version** 1.4
 
 - Bug corrigé: \ifx était interprété différement entre MikTeX et Overleaf pour les promoteurs.
+
+**Version** 1.5
+
+- Ajout d'un fichier Bibtex
 
 
 
